@@ -7,11 +7,66 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerd
 x-kinRank: "8"
 x-alexaRank: "18918"
 tags: User Contact Methods
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PagerDuty - List a user's contact methods
+  x-api-slug: usersidcontact-methods-get
+  description: List contact methods of your PagerDuty user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
+  humanURL: http://www.pagerduty.com/
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/usersidcontact-methods-get-openapi.md
+- name: PagerDuty - Create a user contact method
+  x-api-slug: usersidcontact-methods-post
+  description: Create a new contact method.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
+  humanURL: http://www.pagerduty.com/
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/usersidcontact-methods-post-openapi.md
+- name: PagerDuty - Get a user's contact method
+  x-api-slug: usersidcontact-methodscontact-method-id-get
+  description: Get details about a user's contact method.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
+  humanURL: http://www.pagerduty.com/
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/usersidcontact-methodscontact-method-id-get-openapi.md
+- name: PagerDuty - Delete a user's contact method
+  x-api-slug: usersidcontact-methodscontact-method-id-delete
+  description: Delete users  contact methods contact method
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
+  humanURL: http://www.pagerduty.com/
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/usersidcontact-methodscontact-method-id-delete-openapi.md
+- name: PagerDuty - Update a user's contact method
+  x-api-slug: usersidcontact-methodscontact-method-id-put
+  description: Put users  contact methods contact method
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
+  humanURL: http://www.pagerduty.com/
+  baseURL: https:///
+  tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/usersidcontact-methodscontact-method-id-put-openapi.md
 x-common:
 - type: x-website
   url: http://www.pagerduty.com/

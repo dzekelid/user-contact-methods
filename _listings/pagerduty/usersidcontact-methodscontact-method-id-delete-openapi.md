@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: PagerDuty
-x-complete: 1
+x-complete: 0
 info:
-  title: PagerDuty
+  title: PagerDuty Delete a user's contact method
   version: 1.0.0
+  description: Delete users  contact methods contact method
 schemes:
 - http
 produces:
@@ -70,21 +72,17 @@ paths:
           description: OK
       tags:
       - User Contact Methods
-    put:
-      summary: Update a user's contact method
-      description: Put users  contact methods contact method
-      operationId: update-a-users-contact-method
-      x-api-path-slug: usersidcontact-methodscontact-method-id-put
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: user
-        description: The users contact method to be updated
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - User Contact Methods
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

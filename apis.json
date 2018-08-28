@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - User Contact Methods",
+	"description": "This is a repository of user contact methods APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/user-contact-methods.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://user-contact-methods.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "PagerDuty",
+			"x-api-slug": "pagerduty",
+			"description": "See how PagerDuty Digital Operations Management Platform integrates machine data & human intelligence to improve visibility & agility across organizations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg",
+			"humanURL": "http://www.pagerduty.com/",
+			"baseURL": "https:///",
+			"tags": "User Contact Methods",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "User Contact Methods",
+	"include": [
+		{
+			"name": "PagerDuty",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/user-contact-methods/master/_listings/pagerduty/apis.yaml"
+		}
+	]
+}
